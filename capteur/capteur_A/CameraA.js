@@ -1,5 +1,7 @@
 export default class CameraA {
-    constructor(location) {    }
+    constructor(location) {  
+        this.location = location
+      }
 
     detect() {    }
 }

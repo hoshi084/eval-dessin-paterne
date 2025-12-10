@@ -1,5 +1,7 @@
 export default class ThermalSensorB {
-    constructor(position) {    }
+    constructor(position) {  
+        this.position = position
+      }
 
     scanHeatSignature() {    }
 }
