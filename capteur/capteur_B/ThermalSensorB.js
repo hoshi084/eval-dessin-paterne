@@ -3,5 +3,11 @@ export default class ThermalSensorB {
         this.position = position
       }
 
-    scanHeatSignature() {    }
+    scanHeatSignature() {  
+        return {
+            sensor: "ThermalSensorB",
+            detection: "thermal",
+            date: new Date(),
+        }
+      }
 }
