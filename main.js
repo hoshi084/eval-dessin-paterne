@@ -12,6 +12,6 @@ const room = new Room("Salon")
 room.addSensor(cam)
 room.addSensor(adaptedThermal)
 
-room.addNotification(new EmailNotification("admin@batiment.fr"))
+room.addNotification(new EmailNotification("admin@gmail.com"))
 
 room.checkSensors()
