@@ -3,5 +3,7 @@ export default class CameraA {
         this.location = location
       }
 
-    detect() {    }
+    detect() {
+        return `[ALERTE] CameraA détecte un mouvement dans ${this.location}`
+        }
 }

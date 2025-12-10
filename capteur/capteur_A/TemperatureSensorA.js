@@ -5,5 +5,10 @@ export default class TemperatureSensorA {
         this.currentTemp = Math.floor(Math.random() * 40) 
        }
 
-    detect() {    }
+    detect() {   
+        if (this.currentTemp > this.threshold) {
+            return `[ALERTE] TemperatureSensorA : température ${this.currentTemp}°C dépasse le seuil ${this.threshold}°C dans ${this.location}`
+        }
+        return null 
+     }
 }

@@ -3,5 +3,7 @@ export default class MotionSensorA {
         this.location = location
      }
 
-    detect() {    }
+    detect() { 
+        return `[ALERTE] MotionSensorA détecte un mouvement dans ${this.location}`
+    }
 }
